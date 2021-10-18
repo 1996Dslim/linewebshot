@@ -1,0 +1,17 @@
+[ {
+    "counterId" : "LCM2131I01050",
+    "outputRate" : 0.0,
+    "shotDate" : "20210804",
+    "shotCount" : 522,
+    "cycleTime" : 6.9,
+    "shotOutput" : 522,
+    "adjustedOutput" : 522
+  }, {
+    "counterId" : "LCM2131I01050",
+    "outputRate" : 0.0,
+    "shotDate" : "20210805",
+    "shotCount" : 976,
+    "cycleTime" : 6.9,
+    "shotOutput" : 976,
+    "adjustedOutput" : 976
+  } ]

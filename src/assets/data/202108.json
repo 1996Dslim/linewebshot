@@ -1,0 +1,81 @@
+[ 
+  {
+    "shot_last_dt" : "20210810",
+    "counter_id" : "CCM2126I01002",
+    "shot_count" : 286,
+    "most_ct" : 59.8,
+    "most_temp" : "26.9"
+  }, 
+  
+  {
+    "shot_last_dt" : "20210811",
+    "shot_count" : 100,
+    "most_ct" : 59.3,
+    "counter_id" : "CCM2126I01002",
+    "most_temp" : "26.9"
+  }, 
+  
+  {
+    "shot_last_dt" : "20210812",
+    "most_ct" : 57.9,
+    "shot_count" : 304,
+    "most_temp" : "26.5",
+    "counter_id" : "CCM2126I01002"
+  }, 
+  
+  {
+    "shot_count" : 35,
+    "most_temp" : "25.1",
+    "shot_last_dt" : "20210818",
+    "counter_id" : "CCM2126I01002",
+    "most_ct" : 60.0
+  }, 
+  
+  {
+    "most_ct" : 57.1,
+    "shot_count" : 148,
+    "shot_last_dt" : "20210819",
+    "counter_id" : "CCM2126I01002",
+    "most_temp" : "26.7"
+  }, 
+  
+  {
+    "most_ct" : 31.4,
+    "shot_count" : 5,
+    "shot_last_dt" : "20210820",
+    "counter_id" : "CCM2126I01002",
+    "most_temp" : "28.0"
+  }, 
+  
+  {
+    "shot_last_dt" : "20210823",
+    "most_temp" : "26.5",
+    "counter_id" : "CCM2126I01002",
+    "shot_count" : 350,
+    "most_ct" : 60.0
+  }, 
+  
+  {
+    "shot_count" : 1,
+    "most_ct" : 77.0,
+    "counter_id" : "CCM2126I01002",
+    "most_temp" : "28.0",
+    "shot_last_dt" : "20210825"
+  }, 
+  
+  {
+    "shot_count" : 99,
+    "most_ct" : 59.0,
+    "shot_last_dt" : "20210830",
+    "counter_id" : "CCM2126I01002",
+    "most_temp" : "29.6"
+  }, 
+  
+  {
+    "shot_last_dt" : "20210831",
+    "shot_count" : 194,
+    "most_temp" : "29.2",
+    "counter_id" : "CCM2126I01002",
+    "most_ct" : 54.9
+  } 
+]

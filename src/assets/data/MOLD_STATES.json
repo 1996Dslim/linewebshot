@@ -1,0 +1,54 @@
+[ {
+    "id" : 2,
+    "creatorId" : 1,
+    "createdAt" : "2021-02-08T06:11:10.000+00:00",
+    "creator" : {
+      "id" : 1,
+      "userId" : "itofrom",
+      "userName" : "ITOFROM",
+      "phoneNumber" : null,
+      "department" : null,
+      "position" : null,
+      "duty" : null,
+      "userState" : "I",
+      "approverId" : null,
+      "approvedAt" : "2021-03-24T09:59:55.000+00:00",
+      "companyId" : 1,
+      "updatedAt" : null,
+      "createdAt" : "2021-01-26T08:24:54.000+00:00",
+      "company" : {
+        "id" : 1,
+        "name" : "ITOFROM",
+        "addrBase" : "(05838) 서울 송파구 충민로 66",
+        "addrDetails" : "본사",
+        "bizConditions" : null,
+        "bizItem" : null,
+        "sectors1st" : null,
+        "sectors2nd" : null,
+        "sectorsDetails" : null,
+        "brn" : "771-87-00874",
+        "cbrFile" : null,
+        "activated" : true,
+        "approverId" : 1,
+        "approvedAt" : "2021-03-24T04:04:04.000+00:00",
+        "relationId" : null,
+        "updatedAt" : null,
+        "createdAt" : "2021-01-26T08:23:42.000+00:00",
+        "hibernateLazyInitializer" : { }
+      },
+      "roles" : [ {
+        "id" : 1,
+        "roleName" : "ROOT"
+      }, {
+        "id" : 2,
+        "roleName" : "ADMINISTRATOR"
+      } ]
+    },
+    "code" : "MOLD_STATES",
+    "codeName" : "금형상태",
+    "codeType" : "select",
+    "codeElements" : "[{\"text\":\"양산\",\"value\":\"mass\",\"order\":0},{\"text\":\"개발\",\"value\":\"dev\",\"order\":\"1\"},{\"text\":\"유휴\",\"value\":\"idle\",\"order\":\"2\"},{\"text\":\"A/S\",\"value\":\"as\",\"order\":\"3\"},{\"text\":\"폐기\",\"value\":\"disposal\",\"order\":\"4\"}]",
+    "visible" : true,
+    "searchable" : true,
+    "companyId" : 1
+  } ]

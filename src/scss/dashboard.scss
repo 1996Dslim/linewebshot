@@ -1,0 +1,175 @@
+@mixin mininfo_box($bc-color, $border-color, $color) {
+    .title {
+        width: 230px;
+        padding: 8px 16px 19px 20px;
+        font-size: 12.5pt;
+        font-weight: 600;
+        color: $color;
+        box-sizing: border-box;
+        .sub_title {
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 20px;
+            color: #5ea2ff;
+        }
+    }
+    .num_box {
+        width: 92px;
+        height: 92px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $bc-color;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 19px 21px 17px;
+        h2 {
+            font-size: 24px;
+            color: $color;
+            margin-bottom: 10px;
+        }
+        span {
+            color: $color;
+        }
+    }
+}
+
+@mixin now_state($bc-color, $border-color, $color) {
+    width: 190px;
+    height: 100%;
+    border: solid 1px $border-color;
+    background-color: $bc-color;
+    border-radius: 10px;
+    color: $color;
+    .title {
+        background-color: $bc-color;
+        border-bottom: 1px solid $border-color;
+    }
+    .num {
+        margin: 15px 10px 0;
+        width: 169px;
+        height: 92px; 
+        border-radius: 10px;
+        border: 1px solid $border-color;
+        background-color: $bc-color;
+        font-size: 35px;
+        text-align: center;
+        line-height: 92px;
+        box-sizing: border-box;
+    }
+    .ea {
+        display: flex;
+        justify-content: center;
+        height: 34px;
+        line-height: 34px;
+        color: #4b6394;
+    }
+}
+
+.info_input {
+    padding: 10px;
+}
+
+.shot {
+    width: 1722px;
+    height: 118px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 14px;
+    .min_info {
+        width: 420px;
+        height: 120px;
+        background-color: #0a1f4a;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        border: solid 1px #1d2a80;
+        box-sizing: border-box;
+        padding: 0 14px;
+        
+        @for $i from 1 through 4 { 
+            &:nth-child(#{$i}) .imgfield {
+                background-image: url("~/assets/dashboard/dashboard_min_info_#{$i}.png");
+            }
+        }
+        .imgfield {
+            width: 60px;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        &:nth-child(1) {
+            @include mininfo_box(#1d0005, #a94c00, #ff7800);
+        }
+        &:nth-child(2) {
+            @include mininfo_box(#001b02, #256b1f, #44d338);
+        }
+        &:nth-child(3) {
+            @include mininfo_box(#15000e, #9a24af, #ff61f6);
+        }
+        &:nth-child(4) {
+            @include mininfo_box(#19010a, #a72747, #ff3366);
+        }
+    }
+}
+
+.Status {
+    width: 1722px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    gap: 14px;
+    .state_wrap {
+        display: flex;
+        gap: 14px;
+        .cir {
+            width: 200px;
+            height: 180px;
+            // background-color: #fff;
+            // border-radius: 50%;
+        }
+        .counter_num:nth-child(2) {
+            @include now_state(#001e28, #02655f, #0ccb8f);
+        }
+        .counter_num:nth-child(3) {
+            @include now_state(#0b1b3c, #146199, #31d1ff);
+        }
+        .counter_num:nth-child(4) {
+            @include now_state(#1f1318, #962a45, #fe374e);
+        }
+    }
+}
+
+
+.chartstatus {
+    width: 1722px;
+    height: 283px;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+
+.day_area_bg {
+    width: 1722px;
+    height: 51px;
+    border: solid 1px #1d2a80;
+    background-color: #0c1139;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .now {
+        width: 190px;
+        font-size: 15pt;
+    }
+}
+
+
+
+

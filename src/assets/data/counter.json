@@ -1,0 +1,86 @@
+{
+    "registeredCnt" : 4,
+    "yellowCnt" : 0,
+    "activeCnt" : 4,
+    "list" : [ 
+        {
+            "expiredAt" : null,
+            "ct" : null,
+            "id" : 40,
+            "counterId" : "LCM2001I01001",
+            "lastReceivedAt" : "2021-08-30T01:10:10.000+00:00",
+            "shotCount" : null,
+            "moldId" : 38,
+            "moldName" : "LCM2001I01001",
+            "shotLastAt" : null,
+            "commState" : "G"
+        }, 
+        
+        {
+            "lastReceivedAt" : "2021-08-06T02:31:02.000+00:00",
+            "moldName" : "LCM2047I01001",
+            "ct" : 15.4,
+            "expiredAt" : "2021-08-04T08:44:15.000+00:00",
+            "shotCount" : "23459",
+            "shotLastAt" : "20210805182651",
+            "counterId" : "LCM2047I01001",
+            "id" : 38,
+            "moldId" : 36,
+            "commState" : "Y"
+        }, 
+        
+        {
+            "id" : 42,
+            "expiredAt" : null,
+            "counterId" : "LCM2131I01050",
+            "shotCount" : "236124",
+            "lastReceivedAt" : "2021-08-06T01:51:08.000+00:00",
+            "moldName" : "LCM2047I01003",
+            "ct" : 6.9,
+            "shotLastAt" : "20210805121237",
+            "moldId" : 37,
+            "commState" : "R"
+        }, 
+        
+        {
+            "ct" : 6.4,
+            "expiredAt" : null,
+            "id" : 41,
+            "shotCount" : "14012",
+            "moldName" : "LCM2047I01001",
+            "shotLastAt" : "20210805121243",
+            "lastReceivedAt" : "2021-08-06T01:51:08.000+00:00",
+            "counterId" : "LCM2131I01049",
+            "moldId" : 36,
+            "commState" : "R"
+        }, 
+        
+        {
+            "lastReceivedAt" : "2021-08-06T01:41:08.000+00:00",
+            "counterId" : "LCM2047I01003",
+            "shotCount" : "5680",
+            "shotLastAt" : "20210804171725",
+            "expiredAt" : "2021-08-04T08:44:21.000+00:00",
+            "moldName" : "LCM2047I01003",
+            "id" : 39,
+            "ct" : 112.2,
+            "moldId" : 37,
+            "commState" : "R"
+        }, 
+        
+        {
+            "id" : 43,
+            "expiredAt" : null,
+            "lastReceivedAt" : "2021-08-06T01:41:08.000+00:00",
+            "moldName" : "LTM2131KRL001",
+            "counterId" : "LCM2047I01003",
+            "shotCount" : "5680",
+            "shotLastAt" : "20210804171725",
+            "moldId" : 39,
+            "ct" : 112.2,
+            "commState" : "R"
+        }
+    ],
+    "greenCnt" : 0,
+    "redCnt" : 4
+  }

@@ -1,0 +1,49 @@
+[ {
+  "most_temp" : "28.8",
+  "shot_last_dt" : "20210901",
+  "most_ct" : 51.1,
+  "counter_id" : "CCM2126I01010",
+  "shot_count" : 1035
+}, {
+  "counter_id" : "CCM2126I01010",
+  "most_temp" : "28.2",
+  "shot_count" : 894,
+  "shot_last_dt" : "20210902",
+  "most_ct" : 50.5
+}, {
+  "most_ct" : 50.6,
+  "shot_count" : 515,
+  "counter_id" : "CCM2126I01010",
+  "shot_last_dt" : "20210903",
+  "most_temp" : "28.4"
+}, {
+  "counter_id" : "CCM2126I01010",
+  "shot_count" : 1023,
+  "most_temp" : "28.2",
+  "shot_last_dt" : "20210904",
+  "most_ct" : 50.5
+}, {
+  "most_temp" : "28.8",
+  "counter_id" : "CCM2126I01010",
+  "shot_count" : 9,
+  "shot_last_dt" : "20210905",
+  "most_ct" : 50.4
+}, {
+  "most_ct" : 50.9,
+  "counter_id" : "CCM2126I01010",
+  "shot_last_dt" : "20210906",
+  "most_temp" : "28.2",
+  "shot_count" : 1002
+}, {
+  "counter_id" : "CCM2126I01010",
+  "shot_last_dt" : "20210907",
+  "shot_count" : 525,
+  "most_temp" : "28.6",
+  "most_ct" : 50.5
+}, {
+  "counter_id" : "CCM2126I01010",
+  "shot_count" : 674,
+  "shot_last_dt" : "20210908",
+  "most_temp" : "29.0",
+  "most_ct" : 50.4
+} ]

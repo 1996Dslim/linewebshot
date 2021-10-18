@@ -1,0 +1,16 @@
+[ {
+    "updatedAt" : "2021-07-14T08:00:29.000+00:00",
+    "userId" : "shotline.r01@itofrom.com",
+    "approverId" : 1,
+    "companyName" : "ITOFROM (LGT)",
+    "roleNames" : "ADMINISTRATOR",
+    "approvedAt" : "2021-07-14T08:00:26.000+00:00",
+    "createdAt" : "2021-05-13T05:45:43.000+00:00",
+    "userName" : "연구원 01",
+    "companyId" : 4,
+    "phoneNumber" : "02-2157-6570",
+    "approverName" : "ITOFROM",
+    "department" : null,
+    "userState" : "I",
+    "id" : 5
+  } ]

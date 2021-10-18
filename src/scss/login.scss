@@ -1,0 +1,265 @@
+
+.text_box {
+    width: 420px;
+    height: 56px;
+    border: solid 1px #337af0;
+    background-color: #1d1f3e;
+    box-sizing: border-box;
+    display: flex;
+    &:focus {
+        border: solid 5px #337af0;;
+    }
+}
+
+
+.inputtext {
+    width: 329px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #1d1f3e;
+    border: 0 solid black;
+    color: #448aff;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        color: #d2d2d2;
+    }
+}
+
+
+.main{
+    //height: 100vh;
+    .bg {
+        background-image: url("~/assets/login/loginmian.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 1000px;
+        max-width: 1049px;
+        min-width: 500px;
+        height: 647px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+
+        .loginform{
+            margin-top: 190px;
+            .mark {
+                width: 150px;
+                height: 38px;
+                background-image: url("~/assets/login/itofromicon.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                right: 0;
+                left: 0;
+                margin: auto;
+            }
+
+            .login {
+                width: 422px;
+                height: 293px;
+                margin: auto;
+
+                .text_box.id {
+                    margin-top: 19px;
+                    margin-bottom: 11px;
+                    position: relative;
+                    .personicon {
+                        width: 49px;
+                        position: relative;
+                    }
+                    .material-icons.per {
+                        height: 20px;
+                        width: 18px;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        margin: auto;
+                        position: absolute;
+                        color: #42a5f5;
+                    }
+                }
+
+                .text_box.pas {
+                    position: relative;
+                    margin-bottom: 16px;
+
+                    .lockicon {
+                        width: 49px;
+                        position: relative;
+
+                        .material-icons.lock {
+                            height: 20px;
+                            width: 18px;
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            color: #42a5f5; 
+                        }
+                    }
+
+                    .visibility {
+                        width: 42px;
+                        position: relative;
+
+                        #viewck[type="checkbox"] {
+                            display:none;
+                            + label span {
+                                display: inline-block;
+                                width: 17px;
+                                height: 17px;
+                                &::before {
+                                    content: "visibility";
+                                }
+                                
+                            }
+                        
+                            &:checked + label span {
+                                background-size: cover;
+                                &::before {
+                                    content: "visibility_off";
+                                }
+                            }
+                        }
+
+                        .material-icons.vis {
+                            display: block;
+                            height: 20px;
+                            width: 18px;
+                            position: absolute;
+                            top: 0;
+                            bottom: 5px;
+                            margin: auto;
+                            color: #42556a;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .info {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 24px;
+
+                    .Remember label {
+                        font-size: 15px;
+                        line-height: 1.2;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #fffefe;
+                        cursor: pointer;
+                    }
+
+                    #remembercheck[type="checkbox"] {
+                        display:none;
+                        + label span {
+                            display: inline-block;
+                            width: 17px;
+                            height: 17px;
+                            margin: -5px 10px 0 0;
+                            vertical-align: middle;
+                            background-size: cover;
+                            font-size: 20px;
+                            &::before {
+                                content: "radio_button_unchecked";
+                            }
+                            
+                        }
+                    
+                        &:checked + label span {
+                            background-size: cover;
+                            &::before {
+                                content: "task_alt";
+                            }
+                        }
+                    }
+
+                    .helpbox {
+                        display: flex;
+                        position: relative;
+                        .material-icons.help {
+                            color: #fffefe; 
+                            display: inline-block;
+                            width: 17px;
+                            height: 17px;
+                            margin: 0 10px 0 0;
+                            font-size: 20px;
+                        }
+
+                        .forgot {
+                            display: block;
+                            width: 124px;
+                            height: 16px;
+                            font-size: 15px;
+                            top: 0;
+                            bottom: 0;
+                            margin:auto;
+                        }
+                    }
+                }
+
+                .loginsubmit {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                
+                .loginbtn {
+                    width: 300px;
+                    height: 49px;
+                    padding: 18px 126px 18px 125px;
+                    box-shadow: 0px 4px 0 0 rgba(0, 0, 0, 0.2);
+                    border: solid 1px #33c6f0;
+                    border-radius: 30px;
+                    background-color: #16647b;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #377285;
+                        transition: .5s;
+                    }
+
+                    &:disabled {
+                        width: 300px;
+                        height: 49px;
+                        padding: 18px 126px 18px 125px;
+                        border-radius: 30px;
+                        background-color: rgba(0, 0, 0, 0.2);
+                        box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0.2);
+                        border: solid 0px ;
+                        cursor: default;
+                    }
+
+                    .log {
+                        width: 49px;
+                        height: 13px;
+                        font-size: 17px;
+                        line-height: 1.06;
+                        text-align: center;
+                        color: #fff;
+                    }  
+                }
+            }
+        }
+
+        .signup {
+            display: flex;
+            justify-content: center;
+            span {
+                height: 14px;
+                font-size: 13px;
+                line-height: 1.38;
+                text-align: center;
+                color: #b388ff;
+            }
+        }
+    }
+}
